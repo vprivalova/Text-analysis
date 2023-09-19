@@ -1,3 +1,10 @@
+"""
+Team:
+Nizovtseva Anastasia 95
+Privalova Viktoria 95
+"""
+
+
 from textblob import TextBlob
 from googletrans import Translator
 import ru_local as ru
@@ -11,8 +18,8 @@ text_blob_object = TextBlob(text)
 text_sentence = text_blob_object.sentences
 text_words = text_blob_object.words
 
-for i in range(len(text)):
-    if text[i] in RU_VOWELS or text[i] in ENG_VOWELS:
+for index in range(len(text)):
+    if text[index] in RU_VOWELS or text[index] in ENG_VOWELS:
         v_count = v_count + 1
 
 asl = len(text_words) / len(text_sentence)
