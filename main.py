@@ -1,7 +1,7 @@
 """
 Team:
-Nizovtseva Anastasia 95
-Privalova Viktoria 95
+Nizovtseva Anastasia 88
+Privalova Viktoria 85
 """
 
 
